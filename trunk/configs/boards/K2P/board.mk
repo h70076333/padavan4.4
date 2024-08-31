@@ -4,6 +4,6 @@
 # K2P       # K2P              # MT7621  #
 ##################################################################
 
-CFLAGS += -DBOARD_K2P -DBOARD_MT7615_DBDC
+CFLAGS += -DBOARD_K2P
 BOARD_NUM_USB_PORTS=0
-CONFIG_BOARD_RAM_SIZE=128
+CONFIG_BOARD_RAM_SIZE=256
